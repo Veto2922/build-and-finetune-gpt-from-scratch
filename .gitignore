@@ -1,0 +1,87 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+*.pyc
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+venv/
+env/
+ENV/
+
+# Model files (large files - should not be committed)
+*.pth
+*.pt
+*.ckpt
+*.ckpt.*
+*.h5
+*.pb
+*.onnx
+*.pkl
+*.pickle
+
+# Tokenizer model files
+*.model
+*.vocab
+*.bpe
+
+# Data files (large datasets)
+data/
+*.txt
+*.csv
+*.tsv
+*.zip
+!README.md
+!requirements.txt
+!LICENSE.txt
+
+# Downloaded GPT-2 models
+notebooks/gpt2/
+gpt2/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+logs/
+wandb/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Training outputs and checkpoints
+checkpoints/
+runs/
+outputs/
+results/
+
+# Large instruction fine-tuning files
+notebooks/Instruction_Finetuning/*.pth
+notebooks/Instruction_Finetuning/instruction-data*.json
+notebooks/fine-tuning_for_classification/*.csv
+notebooks/fine-tuning_for_classification/*.zip
+notebooks/fine-tuning_for_classification/sms_spam_collection/
+
+# Model evaluation outputs
+*.png
+*.jpg
+*.jpeg
+!docs/*.png
+!docs/*.jpg
