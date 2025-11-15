@@ -187,17 +187,14 @@ GPT_from_scratch/
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/Veto2922/build-and-finetune-gpt-from-scratch.git
 cd GPT_from_scratch
 ```
 
-2. Install dependencies using `uv` (recommended) or `pip`:
+2. Install dependencies using `uv` (recommended) :
 ```bash
 # Using uv
 uv sync
-
-# Or using pip
-pip install -r requirements.txt
 ```
 
 3. Prepare your data:
